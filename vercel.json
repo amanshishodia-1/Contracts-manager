@@ -5,11 +5,11 @@
   "installCommand": "npm install",
   "devCommand": "npm run dev",
   "env": {
-    "VITE_API_URL": "@vite_api_url"
+    "VITE_API_URL": "$VITE_API_URL"
   },
   "build": {
     "env": {
-      "VITE_API_URL": "@vite_api_url"
+      "VITE_API_URL": "$VITE_API_URL"
     }
   },
   "rewrites": [

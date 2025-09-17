@@ -26,7 +26,7 @@ app = FastAPI(title="Contract Management API", version="1.0.0")
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:5174", "http://localhost:3000", "https://*.vercel.app"],
+    allow_origins=["http://localhost:5173", "http://localhost:5174", "http://localhost:3000", "https://contracts-manager-13.vercel.app"],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],

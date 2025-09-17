@@ -1,9 +1,4 @@
 {
-  "framework": "vite",
-  "buildCommand": "VITE_API_URL=https://contracts-manager-pxgs.onrender.com npm run build",
-  "outputDirectory": "dist",
-  "installCommand": "npm install",
-  "devCommand": "npm run dev",
   "rewrites": [
     {
       "source": "/(.*)",

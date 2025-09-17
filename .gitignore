@@ -12,6 +12,21 @@ dist
 dist-ssr
 *.local
 
+# Backend files (not needed for frontend deployment)
+backend/
+*.sqlite
+*.db
+
+# Remove Netlify config since we're using Vercel
+netlify.toml
+
+# Environment files with secrets
+.env
+.env.local
+
+# Vercel
+.vercel
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -22,3 +37,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Test files
+test_contract.txt
+
+# Docker and deployment files not needed for frontend
+docker-compose.yml
+init.sql
+deploy.sh

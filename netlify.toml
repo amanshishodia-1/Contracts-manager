@@ -11,7 +11,7 @@
   status = 200
 
 [context.production.environment]
-  VITE_API_URL = "https://your-backend-url.com"
+  VITE_API_URL = "https://contracts-manager-pxgs.onrender.com"
 
 [context.deploy-preview.environment]
-  VITE_API_URL = "https://your-backend-url.com"
+  VITE_API_URL = "https://contracts-manager-pxgs.onrender.com"
